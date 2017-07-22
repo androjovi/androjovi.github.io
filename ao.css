@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300');
 body{
-  background-color: #3498DB;
+  background: rgba(221,247,248,1);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(221,247,248,1) 0%, rgba(129,215,223,1) 90%, rgba(129,215,223,1) 90%, rgba(129,215,223,1) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(221,247,248,1)), color-stop(90%, rgba(129,215,223,1)), color-stop(90%, rgba(129,215,223,1)), color-stop(100%, rgba(129,215,223,1)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(221,247,248,1) 0%, rgba(129,215,223,1) 90%, rgba(129,215,223,1) 90%, rgba(129,215,223,1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(221,247,248,1) 0%, rgba(129,215,223,1) 90%, rgba(129,215,223,1) 90%, rgba(129,215,223,1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(221,247,248,1) 0%, rgba(129,215,223,1) 90%, rgba(129,215,223,1) 90%, rgba(129,215,223,1) 100%);
+  background: radial-gradient(ellipse at center, rgba(221,247,248,1) 0%, rgba(129,215,223,1) 90%, rgba(129,215,223,1) 90%, rgba(129,215,223,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ddf7f8', endColorstr='#81d7df', GradientType=1 );
 }
 #bio{
   text-align: center;
