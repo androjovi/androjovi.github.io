@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300');
 body{
-  background-image: url(pulp_pixel_people_minimalism_pulp_fiction_66196_1366x768.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #58FAF4;
 }
 #bio{
   text-align: center;
