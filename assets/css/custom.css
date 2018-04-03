@@ -1,9 +1,123 @@
-.ane{
+.ane {
   background-image: url('../img/banner/jv.jpg');
   z-index: 999;
 }
-.s{
-  background: linear-gradient(to right, #4e54c8, #8f94fb);
-#container{
 
+.s {
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+
+}
+
+
+/* Div for skillset section */
+
+#skills {
+  border-radius: 0;
+  padding: 1em 0;
+  margin: 1em auto;
+  max-width: 50%;
+  background: white;
+  display: block;
+}
+
+.h1j {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #2D2D2D;
+  text-align: center;
+  font-weight: lighter;
+  display: block;
+  padding: .5em 0 1em 0;
+  letter-spacing: .2em;
+}
+
+/* Skill list items */
+
+.lij {
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  max-font-size: 1.3em;
+  font-weight: 300;
+  padding: 0;
+}
+
+.ulj {
+  padding-left: 0;
+  color: #2d2d2d;
+  text-align: left;
+  margin-left: 2em;
+  list-style-type: none;
+}
+
+/* Containers for skill levels */
+
+.box {
+  height: 1em;
+  width: 93%;
+  border: .1em solid #2D2D2D;
+  border-radius: 0px;
+  display: inline-block;
+  margin: .5em 0 2em;
+  text-align: center;
+}
+
+/* Skill levels */
+
+#one {
+  height: 1em;
+  width: 80%;
+  background: #2D2D2D;
+  display: block;
+}
+
+#two {
+  height: 1em;
+  width: 50%;
+  background: #2D2D2D;
+  display: block;
+}
+
+#three {
+  height: 1em;
+  width: 30%;
+  background: #2D2D2D;
+  display: block;
+}
+
+#four {
+  height: 1em;
+  width: 90%;
+  background: #2D2D2D;
+  display: block;
+}
+
+#five {
+  height: 1em;
+  width: 70%;
+  background: #2D2D2D;
+  display: block;
+}
+
+#six {
+  height: 1em;
+  width: 85%;
+  background: #2D2D2D;
+  display: block;
+}
+
+/* Large hover state for animation */
+
+#skills:hover #one, #skills:hover #two, #skills:hover #three, #skills:hover #four, #skills:hover #five, #skills:hover #six {
+  animation: grow 1.4s .3s cubic-bezier(0.39, 0.07, 0.16, 0.97);
+}
+
+/* Keyframe */
+
+@keyframes grow {
+  0% {
+    width: 0;
+  }
+  100% {
+    transform: 100%;
+  }
 }
