@@ -65,14 +65,14 @@
 
 #one {
   height: 1em;
-  width: 80%;
+  width: 60%;
   background: #2D2D2D;
   display: block;
 }
 
 #two {
   height: 1em;
-  width: 50%;
+  width: 40%;
   background: #2D2D2D;
   display: block;
 }
@@ -86,21 +86,21 @@
 
 #four {
   height: 1em;
-  width: 90%;
+  width: 80%;
   background: #2D2D2D;
   display: block;
 }
 
 #five {
   height: 1em;
-  width: 70%;
+  width: 60%;
   background: #2D2D2D;
   display: block;
 }
 
 #six {
   height: 1em;
-  width: 85%;
+  width: 80%;
   background: #2D2D2D;
   display: block;
 }
@@ -120,4 +120,8 @@
   100% {
     transform: 100%;
   }
+}
+
+.color-footer{
+  background-color: #8c91f9;
 }
