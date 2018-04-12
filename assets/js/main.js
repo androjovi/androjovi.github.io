@@ -1,17 +1,19 @@
 $(document).ready(function() {
   console.log("Hai kamu, iya kamu");
-  var teks_out = prompt("Can you tell me your name, please, just quick name");
-  teks_out = teks_out.toUpperCase()
-  if (teks_out.length <= 8) {
-    if (teks_out) {
-      hacil = teks_out
-    } else {
-      hacil = "THERE"
-    }
-  } else {
+  var teks_out = prompt("Can you tell me your name, please, just nickname");
+  if (teks_out){
+      if (teks_out.length <= 8) {
+        teks_out = teks_out.toUpperCase()
+        hacil = teks_out
+      }else{
+          hacil = "THERE"
+      }
+  }else{
     hacil = "THERE"
-    console.log("Sorry namanya kepanjangan");
   }
+
+
+
   $('.slider').slider({
     indicators: false,
   });
@@ -26,9 +28,14 @@ $(document).ready(function() {
   var typed = new Typed('.there', {
     strings: [hacil],
     typeSpeed: 40,
-    startDelay: 3000,
+    startDelay: 3500,
     cursorChar: '_',
     backSpeed: 0,
   });
+
+  $("#myToTop").click(function() {
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+  return false;
+});
 
 });

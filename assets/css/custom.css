@@ -7,7 +7,12 @@
   background: linear-gradient(to right, #4e54c8, #8f94fb);
 
 }
-
+.social-networks{
+  color: white;
+}
+.social-networks:hover{
+  border-top: 1px double white;
+}
 
 /* Div for skillset section */
 
