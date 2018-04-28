@@ -1,0 +1,292 @@
+html, body{
+  height: 100%;
+}
+.hr-sec{
+  border-bottom:  1px solid red;
+}
+nav ul a:active{
+  background-color: #fed136;
+  border-radius: 3px;
+
+}
+.title{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+}
+.img-portofolio{
+  width: 150px;
+  height: 150px;
+  padding :10px;
+}
+.img{
+		position: relative;
+		z-index: 1;
+		top: 0px;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    filter: brightness(0.4);
+    background-size: cover;
+	}
+	.main{
+		position: absolute;
+		top: 20px;
+		z-index: 2;
+		color: #fff;
+  }
+  .portofolio{
+    background-color: #eee;
+    height: auto;
+  }
+  .navbar-fixed{
+    transition:ease all 0.4s;
+  -webkit-transition:ease all 0.4s;
+  -moz-transition:ease all 0.4s;
+  -o-transition:ease all 0.4s;
+  }
+.dark-nav{
+  background-color: black;
+
+}
+.ml{
+  margin-left: 40px;
+}
+.mt-20{
+  margin-top: 20px;
+
+}
+.mr{
+  margin-right: 50px;
+}
+.nav-button{
+  text-transform: uppercase;
+}
+.timeline {
+  position: relative;
+
+}
+
+.timeline .timeline-event {
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.timeline .timeline-event .timeline-content {
+  position: relative;
+  width: calc(40% - 50px);
+}
+
+.timeline .timeline-event::before {
+  display: block;
+  content: "";
+  width: 2px;
+  height: calc(50% - 30px);
+  position: absolute;
+  background: #d2d2d2;
+  left: calc(50% - 1px);
+  top: 0;
+}
+
+.timeline .timeline-event::after {
+  display: block;
+  content: "";
+  width: 2px;
+  height: calc(50% - 30px);
+  position: absolute;
+  background: #d2d2d2;
+  left: calc(50% - 1px);
+  top: calc(50% + 30px);
+}
+
+.timeline .timeline-event:first-child::before {
+  display: none;
+}
+
+.timeline .timeline-event:last-child::after {
+  display: none;
+}
+
+.timeline .timeline-event:nth-child(even) .timeline-content {
+  margin-left: calc(50% + 50px);
+}
+
+.timeline .timeline-event:nth-child(odd) .timeline-content {
+  margin-left: 0;
+}
+
+.timeline .timeline-badge {
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #d2d2d2;
+  top: calc(50% - 20px);
+  right: calc(50% - 20px);
+  border-radius: 50%;
+  text-align: center;
+  cursor: default;
+}
+
+.timeline .timeline-badge i {
+  font-size: 25px;
+  line-height: 40px;
+}
+
+@media (max-width: 600px) {
+  .timeline .timeline-event .timeline-content {
+    width: calc(100% - 70px);
+  }
+  .timeline .timeline-event::before {
+    left: 19px;
+  }
+  .timeline .timeline-event::after {
+    left: 19px;
+  }
+  .timeline .timeline-event:nth-child(even) .timeline-content {
+    margin-left: 70px;
+  }
+  .timeline .timeline-event:nth-child(odd) .timeline-content {
+    margin-left: 70px;
+  }
+  .timeline .timeline-badge {
+    left: 0;
+  }
+}
+
+
+#skills {
+  border-radius: 0;
+  padding: 1em 0;
+  margin: 1em auto;
+  max-width: 50%;
+  background: white;
+  display: block;
+}
+
+.h1j {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #2D2D2D;
+  text-align: center;
+  font-weight: lighter;
+  display: block;
+  padding: .5em 0 1em 0;
+  letter-spacing: .2em;
+}
+
+/* Skill list items */
+
+.lij {
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  max-font-size: 1.3em;
+  font-weight: 300;
+  padding: 0;
+}
+
+.ulj {
+  padding-left: 0;
+  color: #2d2d2d;
+  text-align: left;
+  margin-left: 2em;
+  list-style-type: none;
+}
+
+/* Containers for skill levels */
+
+.box {
+  height: 1em;
+  width: 93%;
+  border: .1em solid #2D2D2D;
+  border-radius: 0px;
+  display: inline-block;
+  margin: .5em 0 2em;
+  text-align: center;
+}
+
+/* Skill levels */
+
+#one {
+  height: 1em;
+  width: 60%;
+  background: #2D2D2D;
+  display: block;
+}
+
+#two {
+  height: 1em;
+  width: 40%;
+  background: #2D2D2D;
+  display: block;
+}
+
+#three {
+  height: 1em;
+  width: 30%;
+  background: #2D2D2D;
+  display: block;
+}
+
+#four {
+  height: 1em;
+  width: 80%;
+  background: #2D2D2D;
+  display: block;
+}
+
+#five {
+  height: 1em;
+  width: 60%;
+  background: #2D2D2D;
+  display: block;
+}
+
+#six {
+  height: 1em;
+  width: 80%;
+  background: #2D2D2D;
+  display: block;
+}
+#seven {
+  height: 1em;
+  width: 70%;
+  background: #2D2D2D;
+  display: block;
+}
+
+/* Large hover state for animation */
+
+#skills:hover #one, #skills:hover #two, #skills:hover #three, #skills:hover #four, #skills:hover #five, #skills:hover #six, #skills:hover #seven {
+  animation: grow 1.4s .3s cubic-bezier(0.39, 0.07, 0.16, 0.97);
+}
+
+/* Keyframe */
+
+@keyframes grow {
+  0% {
+    width: 0;
+  }
+  100% {
+    transform: 100%;
+  }
+}
+
+@media (max-width: 992px){
+  .md-screen {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  #skills{
+    max-width: 70%;
+  }
+}
