@@ -1,0 +1,190 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html {
+  height: 100%;
+  background-color: #333;
+}
+
+body, .form-control, .btn, .input-group-text {
+	font-size: 0.875rem;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+
+/*
+  background-image: url(../.././landing-page.png);
+  */
+  background: #fff200; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #fff200, #fff200); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #fff200, #fff200); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+/*
+  background: url(/apps/pickordrop/wahana/images/landing-page.png) center center no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	*/
+}
+
+.cover-container {
+  max-width: 70em;
+}
+
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+  transition: 1s;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  /* padding: .25rem 0;*/
+
+  color: black;
+  /* border-bottom: .25rem solid transparent; */
+}
+.nav-masthead .nav-mastlink{
+  padding : 10px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/*
+.nav-masthead .nav-link:hover {
+  /* padding: .25rem 0;
+  padding : 10px;
+  font-weight: 700;
+  color: white;
+  /* border-bottom: .25rem solid transparent;
+  background-color: blue;
+  transition: 0.5s;
+}
+*/
+
+/*
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color:  #0202ff;
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: black;
+  border-bottom-color: #0202ff;
+}
+*/
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+.cover {
+/*
+  padding: 0 1.5rem;
+  */
+
+  padding: 0 0;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
+
+.card {
+  border: 0px solid black;
+  border-radius: 3px;
+  margin-bottom: 5px;
+
+}
+
+.card-body {
+
+}
+
+/**
+  navbar <= 300
+*/
+.dark-nav{
+  background-color: rgba(0,0,0, 0.5);
+  transition: 1s;
+
+}
+.dark-link{
+  color: white;
+
+}
+.color-yellow{
+  background: #fff200;
+}
+
+/*
+  Custom input text
+*/
+.form-control{
+  border-radius: 0px;
+}
+.form-control:focus{
+
+}
+
+/*
+To top butotn
+*/
